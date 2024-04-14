@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#168DEC"
+    android:orientation="vertical"
+    tools:context=".FilmDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title : "
+            android:textAlignment="viewStart"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/txtVwMovieTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MovieTitle"
+            android:textAlignment="viewStart"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category : "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtVwMovieCatergory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MovieCategory"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comments :"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtVwMovieComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="comments"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtVwDateShowFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dateShowFilm"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDeleteFilm"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E81010"
+            android:text="Delete Film" />
+
+        <Button
+            android:id="@+id/btnDeleteComment"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F80D0D"
+            android:text="Delete Comment" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEditComment"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="Edit Comment" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+    </LinearLayout>
+
+</LinearLayout>
