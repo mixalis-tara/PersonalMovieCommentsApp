@@ -11,7 +11,6 @@ MovieApp is an Android application designed to manage and browse a collection of
 - **Edit Film Comments:** Update or modify film details such as comments.
 - **Delete Films:** Remove films from the collection.
 - **Filter Films by Category:** Filter films by category to view only films belonging to a specific genre.
-- **Search Films:** Search for films by title to quickly find a specific movie in the collection.
 - **Responsive UI:** User-friendly interface designed for seamless navigation and interaction.
 
 ## Technologies Used:
